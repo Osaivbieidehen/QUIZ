@@ -1,6 +1,13 @@
 .content {
-    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
   }
+
+
   .header {
     padding: 15px;
     position: fixed;
@@ -20,9 +27,13 @@
     float: right;
     color: #fff;
   }
-  .quiz-body {
-    margin-top: 15px;
-    padding-bottom: 50px;
+  .quiz-body { 
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 80rem;
+margin: 0 auto;
+padding: 2rem;
   }
   .option-block-container {
     margin-top: 20px;
@@ -57,3 +68,12 @@
     padding-bottom: 15px;
   }
   
+  
+img {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 80px;
+        }
